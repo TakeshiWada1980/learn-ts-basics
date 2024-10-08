@@ -1,4 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const userName = "Bob";
-console.log(`Hi, ${userName}.`);
+export {};
+
+let name: string = "TypeScriptの勉強";
+let priority: number = 3;
+
+// number型の値 (4649) を代入"High"
+name = 4649;
+
+// string型の値 ("High") を代入
+priority = "High";
