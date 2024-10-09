@@ -1,5 +1,5 @@
 export type Todo = {
-  name: string; // セミコロンで区切り
+  name: string;
   priority: number;
   isDone: boolean;
   deadline: Date;

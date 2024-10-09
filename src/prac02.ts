@@ -1,5 +1,5 @@
 export {};
-import { Todo } from "./types";
+import { Todo } from "./types"; // 型定義の読込み
 
 const todo1: Todo = {
   name: "TypeScriptの勉強",
